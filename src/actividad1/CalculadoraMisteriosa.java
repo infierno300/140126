@@ -3,7 +3,7 @@ package actividad1;
 import java.util.Scanner;
 
 public class CalculadoraMisteriosa {
-
+    //JIACHENG ZHOU ZHENG
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 		boolean continuar = true;
@@ -52,7 +52,7 @@ public class CalculadoraMisteriosa {
 		scanner.close();
 
 	}
-
+    //Corregido el return que ponía a - b y es a  + b
 	public static int sumar() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Ingresa el primer número: ");
@@ -60,7 +60,7 @@ public class CalculadoraMisteriosa {
 		System.out.print("Ingresa el segundo número: ");
 		int b = sc.nextInt();
 
-		return a - b;
+		return a + b;
 	}
 
 	public static int restar(int a, int b) {
@@ -98,7 +98,7 @@ public class CalculadoraMisteriosa {
 		 * System.out.println("1. Selecciona una operación del menú");
 		 * System.out.println("2. Ingresa los números cuando se te solicite");
 		 * System.out.println("3. El resultado se mostrará en pantalla"); System.out.
-		 * println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
+		 * Println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
 		 */
 	}
 
