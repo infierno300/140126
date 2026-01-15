@@ -95,15 +95,15 @@ public class CalculadoraMisteriosa {
         //ponía numeros.length -1, el -1 no era necesario.
 		return suma / (numeros.length);
 	}
-
+    //el código estaba descobectado
 	public static void mostrarInstrucciones() {
-		/*
-		 * System.out.println("\n=== INSTRUCCIONES ===");
-		 * System.out.println("1. Selecciona una operación del menú");
-		 * System.out.println("2. Ingresa los números cuando se te solicite");
-		 * System.out.println("3. El resultado se mostrará en pantalla"); Systemout
-		 * Println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
-		 */
+
+         System.out.println("\n=== INSTRUCCIONES ===");
+		 System.out.println("1. Selecciona una operación del menú");
+		 System.out.println("2. Ingresa los números cuando se te solicite");
+		 System.out.println("3. El resultado se mostrará en pantalla");
+         System.out.println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
+
 	}
 
 }
