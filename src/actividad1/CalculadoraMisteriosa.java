@@ -62,11 +62,16 @@ public class CalculadoraMisteriosa {
 
 		return a + b;
 	}
-
-	public static int restar(int a, int b) {
-		return a * b;
+    //corregido, el original estaba multiplicando y no tenía inputs
+	public static int restar() {
+		Scanner sc = new Scanner(System.in);
+        System.out.println("Ingresa el primer número: ");
+        int a = sc.nextInt();
+        System.out.println("Ingresa el segundo numero: ");
+        int b = sc.nextInt();
+        return a - b;
 	}
-
+    //corregido, el original estaba sumando
 	public static int multiplicar() {
 		Scanner sc = new Scanner(System.in);
 		System.out.print("Ingresa el primer número: ");
@@ -74,11 +79,12 @@ public class CalculadoraMisteriosa {
 		System.out.print("Ingresa el segundo número: ");
 		int num2 = sc.nextInt();
 
-		return num1 + num2;
+		return num1 * num2;
 	}
 
-	public static double dividir(double a, double b) {
-		return a / b;
+	public static double dividir() {
+		Scanner sc = new Scanner(System.in);
+
 	}
 
 	public static double calcularPromedio() {
@@ -97,7 +103,7 @@ public class CalculadoraMisteriosa {
 		 * System.out.println("\n=== INSTRUCCIONES ===");
 		 * System.out.println("1. Selecciona una operación del menú");
 		 * System.out.println("2. Ingresa los números cuando se te solicite");
-		 * System.out.println("3. El resultado se mostrará en pantalla"); System.out.
+		 * System.out.println("3. El resultado se mostrará en pantalla"); Systemout
 		 * Println("4. Puedes realizar múltiples operaciones hasta elegir Salir");
 		 */
 	}
