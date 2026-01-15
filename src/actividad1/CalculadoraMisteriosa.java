@@ -81,10 +81,18 @@ public class CalculadoraMisteriosa {
 
 		return num1 * num2;
 	}
-
+    //He añadido un input y he pusto la excepcion de division entre 0
 	public static double dividir() {
 		Scanner sc = new Scanner(System.in);
-
+        System.out.println("Ingresa el primer numero: ");
+        double a = sc.nextInt();
+        System.out.println("Ingresa el segundo numero: ");
+        double  b = sc.nextInt();
+        if (b == 0) {
+            System.out.println("Error no sepuede multiplicar por cero");
+            return 0;
+        }
+        return a/b;
 	}
 
 	public static double calcularPromedio() {
