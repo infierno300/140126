@@ -62,13 +62,8 @@ public class CalculadoraMisteriosa {
 
 		return a + b;
 	}
-    //corregido, el original estaba multiplicando y no tenía inputs
-	public static int restar() {
-		Scanner sc = new Scanner(System.in);
-        System.out.println("Ingresa el primer número: ");
-        int a = sc.nextInt();
-        System.out.println("Ingresa el segundo numero: ");
-        int b = sc.nextInt();
+    //corregido, el original estaba multiplicando
+	public static int restar(int a, int b) {
         return a - b;
 	}
     //corregido, el original estaba sumando
@@ -82,12 +77,7 @@ public class CalculadoraMisteriosa {
 		return num1 * num2;
 	}
     //He añadido un input y he pusto la excepcion de division entre 0
-	public static double dividir() {
-		Scanner sc = new Scanner(System.in);
-        System.out.println("Ingresa el primer numero: ");
-        double a = sc.nextInt();
-        System.out.println("Ingresa el segundo numero: ");
-        double  b = sc.nextInt();
+	public static double dividir(double a, double b) {
         if (b == 0) {
             System.out.println("Error no sepuede multiplicar por cero");
             return 0;
